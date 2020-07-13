@@ -88,7 +88,6 @@ left: 50%;
   top: 12%;
   left: 40%;
   border-radius: 50%;
-  box-shadow: 3px solid black;
 }
 
 .media-thumb2 {
@@ -97,7 +96,6 @@ left: 50%;
   top: 12.5%;
   left: 60%;
   border-radius: 50%;
-  box-shadow: 3px solid black;
 }
 
 .media-thumb3 {
@@ -106,7 +104,6 @@ left: 50%;
   top: 12.75%;
   left: 80%;
   border-radius: 50%;
-  box-shadow: 3px solid black;
 }
 
 .media-thumb4 {
@@ -115,7 +112,6 @@ left: 50%;
   top: 55%;
   left: 50%;
   border-radius: 50%;
-  box-shadow: 3px solid black;
 }
 
 .media-thumb5 {
@@ -124,7 +120,6 @@ left: 50%;
   top: 55%;
   left: 70%;
   border-radius: 50%;
-  box-shadow: 3px solid black;
 }
 
 .media-thumb6 {
@@ -133,7 +128,6 @@ left: 50%;
   top: 55%;
   left: 90%;
   border-radius: 50%;
-  box-shadow: 3px solid black;
 }
 
 img {
