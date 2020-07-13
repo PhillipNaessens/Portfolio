@@ -122,14 +122,6 @@ left: 50%;
   border-radius: 50%;
 }
 
-.media-thumb6 {
-  resize: both;
-  position: absolute;
-  top: 55%;
-  left: 90%;
-  border-radius: 50%;
-}
-
 img {
   border-radius: 50%;
 }
@@ -204,21 +196,6 @@ img {
   background-color: rgba(0, 0, 0, 0.75);
 }
 
-.overlay6 {
-  border-radius: 50%;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 99%;
-  width: 30%;
-  opacity: 0;
-  transition: .5s ease;
-  background-color: rgba(0, 0, 0, 0.75);
-}
-
-
 .container:hover .overlay {
   opacity: 1;
 }
@@ -236,10 +213,6 @@ img {
 }
 
 .container:hover .overlay5 {
-  opacity: 1;
-}
-
-.container:hover .overlay6 {
   opacity: 1;
 }
 
