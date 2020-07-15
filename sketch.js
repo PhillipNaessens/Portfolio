@@ -4,7 +4,7 @@ var red2, green2, blue2;
 var canvas;
 
 function setup() {
-  canvas = createCanvas(2000, 2000);
+  canvas = createCanvas(windowWidth, windowHeight);
   canvas.position(0, 0);
   canvas.style('z-index', '-1');
   noStroke();
@@ -14,8 +14,8 @@ function setup() {
 function draw() {
   background(red1, green2, blue2);
 
-  for (var i = 0; i < 2000/100; i++) {
-    for (var j = 0; j < 2000/100; j++) {
+  for (var i = 0; i < windowWidth/100; i++) {
+    for (var j = 0; j < windowHeight/100; j++) {
 
 
 
