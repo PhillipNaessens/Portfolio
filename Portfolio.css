@@ -22,10 +22,8 @@ ul {
 }
 
 li {
-  float: left;
+  float: centre;
 }
-
-
 
 li a {
   display: block;
@@ -45,7 +43,6 @@ a:visited {
   padding-left: 1%;
   padding-right: 1%;
   height: 100vh;
-  margin-right: 63.15%;
   color: white;
   font-size: 18px;
   font-family: Arial, sans-serif;
@@ -92,7 +89,11 @@ li a {
   padding-left: 0px;
   color: red;
 }
-a:visited { text-decoration: none; color:red; }
+  
+a:visited { 
+  text-decoration: none; 
+  color:red; 
+}
 
 .about {
 
@@ -132,8 +133,6 @@ position: absolute;
 top: 15%;
 left: 50%;
 }
-
-
 
 .media-thumb1 {
   resize: both;
