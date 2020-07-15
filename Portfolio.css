@@ -59,6 +59,7 @@ img {
  }
   
 .text {
+  padding: 5px;
   color: rgb(255);
   font-size: 20px;
   position: absolute;
