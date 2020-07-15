@@ -1,25 +1,75 @@
+body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  overflow: hidden;
+}
+
+.banner {
+  background-color:black;
+  padding-top: 1.5%;
+  padding-bottom: 0.9%;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+
+
+li a {
+  display: block;
+  padding: 20px;
+  padding-left: 0px;
+  color: red;
+}
+
+a:visited { 
+  text-decoration: none; 
+  color:red; 
+}
+
+.about {
+  background-color:black;
+  padding-top: 1.5%;
+  padding-left: 1%;
+  padding-right: 1%;
+  height: 100vh;
+  margin-right: 63.15%;
+  color: white;
+  font-size: 18px;
+  font-family: Arial, sans-serif;
+  opacity: 0.75;
+}
+
 
 @media only screen and (min-width: 786px){
-  body {
 
-padding: 0;
-margin: 0;
-height: 100%;
-overflow: hidden;
-
+body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  overflow: hidden;
 }
 
 
 .banner {
-
-background-color:black;
-padding-top: 1.5%;
-padding-left: 1%;
-padding-bottom: 0.9%;
-margin-right: 63.15%;
-color: white;
-font-family: Arial, sans-serif;
-
+  background-color:black;
+  padding-top: 1.5%;
+  padding-left: 1%;
+  padding-bottom: 0.9%;
+  margin-right: 63.15%;
+  color: white;
+  font-family: Arial, sans-serif;
 }
 
 ul {
