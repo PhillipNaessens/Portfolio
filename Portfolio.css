@@ -49,6 +49,7 @@ a:visited {
   font-family: Arial, sans-serif;
   opacity: 0.75;
   text-align: center;
+  overflow: hidden;
 }
 
 img {
