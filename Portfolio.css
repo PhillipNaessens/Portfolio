@@ -39,11 +39,10 @@ a:visited {
 }
   
 .about {
-  height: 100vh;
   background-color:black;
-  padding: 10%;
+  padding: 5%;
   font-size: 18px;
-  color: rgb(255);
+  color: white;
   font-family: Arial, sans-serif;
   opacity: 0.75;
   text-align: center;
@@ -60,7 +59,7 @@ img {
   
 .text {
   padding: 5px;
-  color: rgb(255);
+  color: white;
   font-size: 20px;
   position: absolute;
   -webkit-transform: translate(-50%, -50%);
