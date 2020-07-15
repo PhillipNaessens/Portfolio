@@ -12,6 +12,9 @@ function setup() {
 }
 
 function draw() {
+  
+   windowResized()
+  
    background(red1, green2, blue2);
 
   for (var i = 0; i < windowWidth/100; i++) {
@@ -78,6 +81,10 @@ function draw() {
 
   function mousePressed() {
   randomColors();
+}
+
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
 }
 
   function randomColors() {
