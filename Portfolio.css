@@ -22,12 +22,12 @@ ul {
 }
 
 li {
-  float: center;
+  float: left;
 }
 
 li a {
   display: block;
-  padding: 10px;
+  padding: 20px;
   padding-left: 0px;
   color: red;
 }
