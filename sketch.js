@@ -7,6 +7,7 @@ function setup() {
   canvas = createCanvas(2000, 2000);
   canvas.position(0, 0);
   canvas.style('z-index', '-1');
+  canvas.id("canvas");
   noStroke();
   randomColors();
 }
