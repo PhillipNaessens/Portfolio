@@ -1,11 +1,9 @@
-@media only screen and (max-width: 785px){
-
+@media only screen and (max-width: 786px){
   
 body {
   padding: 0;
   margin: 0;
   height: 100%;
-  overflow: hidden;
 }
 
 .banner {
