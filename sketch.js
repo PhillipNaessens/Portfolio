@@ -4,10 +4,10 @@ var red2, green2, blue2;
 var canvas;
 
 function setup() {
-  canvas = createCanvas(2000, 2000);
+  canvas = createCanvas(winWidth, winHeight);
   canvas.position(0, 0);
   canvas.style('z-index', '-1');
-  canvas.id("canvas");
+  canvas.parent("body");
   noStroke();
   randomColors();
 }
