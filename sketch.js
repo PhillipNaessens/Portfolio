@@ -80,6 +80,10 @@ function draw() {
   randomColors();
 }
 
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
+}
+
 
   function randomColors() {
   red1 = random(255);
