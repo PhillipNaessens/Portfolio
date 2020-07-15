@@ -5,7 +5,6 @@ body {
   margin: 0;
   height: 100%;
   overflow: hidden;
-  background-attachment: fixed;
 }
 
 .banner {
@@ -67,7 +66,6 @@ body {
   margin: 0;
   height: 100%;
   overflow: hidden;
-  background-attachment: fixed;
 }
 
 
