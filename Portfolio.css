@@ -22,7 +22,7 @@ ul {
 }
 
 li {
-  float: left;
+  align: center;
 }
 
 li a {
@@ -47,6 +47,11 @@ a:visited {
   font-size: 18px;
   font-family: Arial, sans-serif;
   opacity: 0.75;
+}
+
+img {
+  border-radius: 50%;
+  align: center;
 }
 
 
