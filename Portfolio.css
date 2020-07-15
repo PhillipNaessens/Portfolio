@@ -1,4 +1,4 @@
-@media only screen and (max-width: 786px){
+@media only screen and (max-width: 785px){
 
 body {
   padding: 0;
@@ -40,8 +40,6 @@ a:visited {
 }
   
 .about {
-  overflow: hidden;
-  height: 100%;
   background-color:black;
   font-size: 18px;
   color: white;
@@ -57,17 +55,6 @@ img {
   margin-right: auto;
   width: 50%;
   padding:5px;
- }
-  
-.text {
-  padding: 5px;
-  color: white;
-  font-size: 20px;
-  position: absolute;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  text-align: center;
  }
 }
 
