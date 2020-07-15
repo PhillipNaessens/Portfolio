@@ -37,6 +37,19 @@ a:visited {
   text-decoration: none; 
   color:red; 
 }
+  
+.about {
+  background-color:black;
+  padding-top: 1.5%;
+  padding-left: 1%;
+  padding-right: 1%;
+  font-size: 18px;
+  color: white;
+  font-family: Arial, sans-serif;
+  opacity: 0.75;
+  text-align: center;
+  height: 3hv;
+}
 
 img {
   border-radius: 50%;
