@@ -27,7 +27,7 @@ li {
 
 li a {
   display: block;
-  padding: 20px;
+  padding: 0px;
   padding-left: 0px;
   color: red;
 }
