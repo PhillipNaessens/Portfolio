@@ -13,7 +13,7 @@ function setup() {
 
 function draw() {
   
-   windowResized()
+   //windowResized()
   
    background(red1, green2, blue2);
 
