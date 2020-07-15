@@ -22,7 +22,7 @@ ul {
 }
 
 li {
-  align: center;
+  align-content: center;
 }
 
 li a {
@@ -51,7 +51,7 @@ a:visited {
 
 img {
   border-radius: 50%;
-  align: center;
+  align-content: center;
 }
 
 
