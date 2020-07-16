@@ -47,6 +47,13 @@ a:visited {
   text-align: center;
   padding: 1%;
 }
+  
+.FakeAbout {
+  background-color:black;
+  font-size: 18px;
+  font-family: Arial, sans-serif;
+  opacity: 1;
+}
 
 img {
   border-radius: 50%;
@@ -115,6 +122,13 @@ a:visited {
   font-family: Arial, sans-serif;
   opacity: 0.75;
 
+}
+  
+.FakeAbout {
+  background-color:black;
+  font-size: 18px;
+  font-family: Arial, sans-serif;
+  opacity: 1;
 }
 
 .media {
