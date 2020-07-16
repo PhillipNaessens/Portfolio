@@ -5,6 +5,10 @@ body {
   margin: 0;
   min-height: 100%;
 }
+  
+.p5Canvas{
+    height: 100%;
+}
 
 .banner {
   background-color:black;
@@ -67,6 +71,10 @@ body {
   min-height: 100%;
 }
 
+.p5Canvas{
+    height: 100%;
+}  
+  
 .banner {
   background-color:black;
   padding-top: 1.5%;
