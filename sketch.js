@@ -3,10 +3,10 @@ var red1, green1, blue1;
 var red2, green2, blue2;
 var canvas;
 
-var height = document.body.clientHeight;
+var docHeight = document.body.clientHeight;
 
 function setup() {
-  canvas = createCanvas(windowWidth, height);
+  canvas = createCanvas(windowWidth, docHeight);
   canvas.position(0, 0);
   canvas.style('z-index', '-1');
   noStroke();
@@ -19,7 +19,7 @@ function draw() {
   background(red1, green2, blue2);
 
   for (var i = 0; i < windowWidth/100; i++) {
-    for (var j = 0; j < height/100; j++) {
+    for (var j = 0; j < docHeight/100; j++) {
 
 
 
