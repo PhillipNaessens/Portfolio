@@ -17,8 +17,8 @@ function draw() {
   
   background(red1, green2, blue2);
 
-  for (var i = 0; i < windowWidth/100; i++) {
-    for (var j = 0; j < windowHeight/100; j++) {
+  for (var i = 0; i < document.body.scrollWidth/100; i++) {
+    for (var j = 0; j < document.body.scrollHeight/100; j++) {
 
 
 
