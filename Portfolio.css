@@ -73,6 +73,11 @@ body {
   height: 100%;
 }
 
+    .homeExtend{
+    background-color:black;
+    height: 100%;
+    opacity: 1;    
+  }
 
 .banner {
   background-color:black;
