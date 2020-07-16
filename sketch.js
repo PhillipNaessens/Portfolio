@@ -3,11 +3,7 @@ var red1, green1, blue1;
 var red2, green2, blue2;
 var canvas;
 
-var body = document.body,
-    html = document.documentElement;
-
-var height = Math.max( body.scrollHeight, body.offsetHeight, 
-                       html.clientHeight, html.scrollHeight, html.offsetHeight );
+var height = document.body.clientHeight;
 
 function setup() {
   canvas = createCanvas(windowWidth, height);
