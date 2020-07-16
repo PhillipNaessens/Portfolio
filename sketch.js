@@ -13,7 +13,7 @@ function setup() {
 
 function draw() {
   windowResized();
-
+  windowHeight = windowHeight + document.body.scrollHeight;
   background(red1, green2, blue2);
 
   for (var i = 0; i < windowWidth/100; i++) {
