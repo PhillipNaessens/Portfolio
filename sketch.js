@@ -3,10 +3,8 @@ var red1, green1, blue1;
 var red2, green2, blue2;
 var canvas;
 
-var docHeight = document.body.clientHeight;
-
 function setup() {
-  canvas = createCanvas(windowWidth, docHeight);
+  canvas = createCanvas(windowWidth, windowHeight);
   canvas.position(0, 0);
   canvas.style('z-index', '-1');
   noStroke();
@@ -14,12 +12,12 @@ function setup() {
 }
 
 function draw() {
- // windowResized();
-  docHeight = document.body.clientHeight;
+  windowResized();
+
   background(red1, green2, blue2);
 
   for (var i = 0; i < windowWidth/100; i++) {
-    for (var j = 0; j < docHeight/100; j++) {
+    for (var j = 0; j < windowHeight/100; j++) {
 
 
 
@@ -84,9 +82,9 @@ function draw() {
   randomColors();
 }
 
-/*function windowResized() {
+function windowResized() {
   resizeCanvas(windowWidth, height);
-}*/
+}
 
 
   function randomColors() {
