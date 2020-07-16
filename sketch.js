@@ -23,7 +23,7 @@ function draw() {
   background(red1, green2, blue2);
 
   for (var i = 0; i < windowWidth/100; i++) {
-    for (var j = 0; j < body.scrollHeight/100; j++) {
+    for (var j = 0; j < height/100; j++) {
 
 
 
