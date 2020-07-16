@@ -15,7 +15,7 @@ function setup() {
 
 function draw() {
  // windowResized();
-  
+  docHeight = document.body.clientHeight;
   background(red1, green2, blue2);
 
   for (var i = 0; i < windowWidth/100; i++) {
