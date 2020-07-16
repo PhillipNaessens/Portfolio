@@ -3,8 +3,14 @@ var red1, green1, blue1;
 var red2, green2, blue2;
 var canvas;
 
+var body = document.body,
+    html = document.documentElement;
+
+var heightOfScroll = Math.max( body.scrollHeight, body.offsetHeight, 
+                       html.clientHeight, html.scrollHeight, html.offsetHeight );
+
 function setup() {
-  canvas = createCanvas(windowWidth, windowHeight);
+  canvas = createCanvas(windowWidth, heightOfScroll);
   canvas.position(0, 0);
   canvas.style('z-index', '-1');
   noStroke();
@@ -17,7 +23,7 @@ function draw() {
   background(red1, green2, blue2);
 
   for (var i = 0; i < windowWidth/100; i++) {
-    for (var j = 0; j < windowHeight/100; j++) {
+    for (var j = 0; j < heightOfScroll/100; j++) {
 
 
 
