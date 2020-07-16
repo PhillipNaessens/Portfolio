@@ -4,7 +4,7 @@ var red2, green2, blue2;
 var canvas;
 
 function setup() {
-  canvas = createCanvas(windowWidth, windowHeight + document.body.scrollHeight);
+  canvas = createCanvas(windowWidth, windowHeight);
   canvas.position(0, 0);
   canvas.style('z-index', '-1');
   noStroke();
@@ -12,8 +12,9 @@ function setup() {
 }
 
 function draw() {
+  
   windowResized();
-  windowHeight = windowHeight + document.body.scrollHeight;
+  
   background(red1, green2, blue2);
 
   for (var i = 0; i < windowWidth/100; i++) {
@@ -83,7 +84,7 @@ function draw() {
 }
 
 function windowResized() {
-  resizeCanvas(windowWidth, height);
+  resizeCanvas(document.body.scrollWidth, document.body.scrollHeight);
 }
 
 
