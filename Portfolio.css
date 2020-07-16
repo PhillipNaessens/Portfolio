@@ -3,11 +3,8 @@
 body {
   padding: 0;
   margin: 0;
+  display: inline-block;
   min-height: 100%;
-}
-  
-.p5Canvas{
-    height: 100%;
 }
 
 .banner {
@@ -68,12 +65,9 @@ img {
 body {
   padding: 0;
   margin: 0;
+  display: inline-block;
   min-height: 100%;
-}
-
-.p5Canvas{
-    height: 100%;
-}  
+} 
   
 .banner {
   background-color:black;
