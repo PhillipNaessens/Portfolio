@@ -6,8 +6,11 @@ var canvas;
 var body = document.body,
     html = document.documentElement;
 
+var height = Math.max( body.scrollHeight, body.offsetHeight, 
+                       html.clientHeight, html.scrollHeight, html.offsetHeight );
+
 function setup() {
-  canvas = createCanvas(windowWidth, body.scrollHeight);
+  canvas = createCanvas(windowWidth, height);
   canvas.position(0, 0);
   canvas.style('z-index', '-1');
   noStroke();
@@ -15,7 +18,7 @@ function setup() {
 }
 
 function draw() {
-  windowResized();
+ // windowResized();
   
   background(red1, green2, blue2);
 
@@ -85,9 +88,9 @@ function draw() {
   randomColors();
 }
 
-function windowResized() {
-  resizeCanvas(windowWidth, windowHeight);
-}
+/*function windowResized() {
+  resizeCanvas(windowWidth, height);
+}*/
 
 
   function randomColors() {
