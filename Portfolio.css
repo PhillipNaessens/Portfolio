@@ -142,7 +142,6 @@ left: 50%;
 }
 
 .media-thumb1 {
-  resize: both;
   position: absolute;
   top: 12.75%;
   left: 40%;
@@ -150,7 +149,6 @@ left: 50%;
 }
 
 .media-thumb2 {
-  resize: both;
   position: absolute;
   top: 12.75%;
   left: 60%;
@@ -158,7 +156,6 @@ left: 50%;
 }
 
 .media-thumb3 {
-  resize: both;
   position: absolute;
   top: 12.75%;
   left: 80%;
@@ -166,7 +163,6 @@ left: 50%;
 }
 
 .media-thumb4 {
-  resize: both;
   position: absolute;
   top: 55%;
   left: 50%;
@@ -174,7 +170,6 @@ left: 50%;
 }
 
 .media-thumb5 {
-  resize: both;
   position: absolute;
   top: 55%;
   left: 70%;
