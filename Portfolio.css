@@ -119,6 +119,41 @@ img {
   width: 50%;
   padding:5px;
  }
+  
+  .media-thumb1 {
+  position: absolute;
+  top: 12.5%;
+  left: 40%;
+  border-radius: 50%;
+}
+
+.media-thumb2 {
+  position: absolute;
+  top: 25%;
+  left: 40%;
+  border-radius: 50%;
+}
+
+.media-thumb3 {
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  border-radius: 50%;
+}
+
+.media-thumb4 {
+  position: absolute;
+  top: 75%;
+  left: 40%;
+  border-radius: 50%;
+}
+
+.media-thumb5 {
+  position: absolute;
+  top: 100%;
+  left: 40%;
+  border-radius: 50%;
+}
 }
 
 
