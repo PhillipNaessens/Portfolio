@@ -57,7 +57,7 @@ img {
  }
 }
 
-@media only screen and (min-width: 786px; max-width: 1050px){
+@media only screen and (min-width: 786px) and (max-width: 1050px){
   
 body {
   padding: 0;
