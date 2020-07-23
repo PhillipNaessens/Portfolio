@@ -1,4 +1,4 @@
-@media only screen and (max-width: 900px){
+@media only screen and (max-width: 786px){
   
 body {
   padding: 0;
@@ -57,8 +57,72 @@ img {
  }
 }
 
+@media only screen and (max-width: 950px){
+  
+body {
+  padding: 0;
+  margin: 0;
+}
 
-@media only screen and (min-width: 900px){
+.banner {
+  background-color:black;
+  padding-top: 1.5%;
+  padding-bottom: 0.9%;
+  padding-left: 1%;
+  text-align: center;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  text-align: center;
+}
+
+li a {
+  display: block;
+  padding: 5px;
+  padding-left: 0px;
+  color: red;
+}
+
+a:visited { 
+  text-decoration: none; 
+  color:red; 
+}
+  
+.about {
+
+  background-color:black;
+  padding-top: 1.5%;
+  padding-left: 1%;
+  padding-right: 1%;
+  height: 100vh;
+  margin-right: 63.15%;
+  color: white;
+  font-size: 18px;
+  font-family: Arial, sans-serif;
+  opacity: 0.75;
+
+}
+
+img {
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding:5px;
+ }
+}
+
+
+@media only screen and (min-width: 950px){
 
 body {
   padding: 0;
