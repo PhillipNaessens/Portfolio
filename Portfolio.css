@@ -142,7 +142,7 @@ left: 50%;
 }
 
 .media-thumb1 {
-  position: absolute;
+  position: fixed;
   top: 12.75%;
   left: 40%;
   border-radius: 50%;
