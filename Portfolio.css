@@ -149,35 +149,35 @@ left: 50%;
 }
 
 .media-thumb2 {
-  position: absolute;
+  position: fixed;
   top: 12.75%;
   left: 60%;
   border-radius: 50%;
 }
 
 .media-thumb3 {
-  position: absolute;
+  position: fixed;
   top: 12.75%;
   left: 80%;
   border-radius: 50%;
 }
 
 .media-thumb4 {
-  position: absolute;
+  position: fixed;
   top: 55%;
   left: 50%;
   border-radius: 50%;
 }
 
 .media-thumb5 {
-  position: absolute;
+  position: fixed;
   top: 55%;
   left: 80%;
   border-radius: 50%;
 }
   
 .media-thumb6 {
-  position: absolute;
+  position: fixed;
   top: 55%;
   left: 65%;
   border-radius: 50%;
@@ -189,7 +189,7 @@ img {
 
 .overlay {
   border-radius: 50%;
-  position: absolute;
+  position: fixed;
   top: 0;
   bottom: 0;
   left: 0;
@@ -203,7 +203,7 @@ img {
 
 .overlay2 {
   border-radius: 50%;
-  position: absolute;
+  position: fixed;
   top: 0;
   bottom: 0;
   left: 0;
@@ -217,7 +217,7 @@ img {
 
 .overlay3 {
   border-radius: 50%;
-  position: absolute;
+  position: fixed;
   top: 0;
   bottom: 0;
   left: 0;
@@ -231,7 +231,7 @@ img {
 
 .overlay4 {
   border-radius: 50%;
-  position: absolute;
+  position: fixed;
   top: 0;
   bottom: 0;
   left: 0;
@@ -245,7 +245,7 @@ img {
 
 .overlay5 {
   border-radius: 50%;
-  position: absolute;
+  position: fixed;
   top: 0;
   bottom: 0;
   left: 0;
@@ -259,7 +259,7 @@ img {
   
 .overlay6 {
   border-radius: 50%;
-  position: absolute;
+  position: fixed;
   top: 0;
   bottom: 0;
   left: 0;
