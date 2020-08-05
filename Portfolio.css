@@ -59,6 +59,10 @@ img {
   .overlay {
   border-radius: 50%;
   position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
   opacity: 0;
   transition: .5s ease;
   background-color: rgba(0, 0, 0, 0.75); 
@@ -67,6 +71,10 @@ img {
 .overlay2 {
   border-radius: 50%;
   position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;  
   opacity: 0;
   transition: .5s ease;
   background-color: rgba(0, 0, 0, 0.75);
@@ -75,6 +83,10 @@ img {
 .overlay3 {
   border-radius: 50%;
   position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;  
   opacity: 0;
   transition: .5s ease;
   background-color: rgba(0, 0, 0, 0.75);
@@ -83,6 +95,10 @@ img {
 .overlay4 {
   border-radius: 50%;
   position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;  
   opacity: 0;
   transition: .5s ease;
   background-color: rgba(0, 0, 0, 0.75);
@@ -91,6 +107,10 @@ img {
 .overlay5 {
   border-radius: 50%;
   position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
   opacity: 0;
   transition: .5s ease;
   background-color: rgba(0, 0, 0, 0.75);
@@ -99,6 +119,10 @@ img {
 .overlay6 {
   border-radius: 50%;
   position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
   opacity: 0;
   transition: .5s ease;
   background-color: rgba(0, 0, 0, 0.75);
