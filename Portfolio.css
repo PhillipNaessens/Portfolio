@@ -290,6 +290,10 @@ img {
 .container:hover .overlay5 {
   opacity: 1;
 }
+  
+.container:hover .overlay6 {
+  opacity: 1;
+}
 
 
 .text {
