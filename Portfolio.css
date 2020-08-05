@@ -56,9 +56,63 @@ img {
   padding:5px;
  }
   
-  .overlay {
+  .media-thumb1 {
   border-radius: 50%;
-  position: absolute;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding:5px;
+}
+
+.media-thumb2 {
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding:5px;
+}
+
+.media-thumb3 {
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding:5px;
+}
+
+.media-thumb4 {
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding:5px;
+}
+
+.media-thumb5 {
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding:5px;
+}
+  
+.media-thumb6 {
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding:5px;
+}
+  
+ .overlay {
+  border-radius: 50%;
+  position: inherit;
   top: 0;
   bottom: 0;
   left: 0;
@@ -70,7 +124,7 @@ img {
 
 .overlay2 {
   border-radius: 50%;
-  position: absolute;
+  position: inherit;
   top: 0;
   bottom: 0;
   left: 0;
@@ -82,7 +136,7 @@ img {
 
 .overlay3 {
   border-radius: 50%;
-  position: absolute;
+  position: inherit;
   top: 0;
   bottom: 0;
   left: 0;
@@ -94,7 +148,7 @@ img {
 
 .overlay4 {
   border-radius: 50%;
-  position: absolute;
+  position: inherit;
   top: 0;
   bottom: 0;
   left: 0;
@@ -106,7 +160,7 @@ img {
 
 .overlay5 {
   border-radius: 50%;
-  position: absolute;
+  position: inherit;
   top: 0;
   bottom: 0;
   left: 0;
@@ -118,7 +172,7 @@ img {
   
 .overlay6 {
   border-radius: 50%;
-  position: absolute;
+  position: inherit;
   top: 0;
   bottom: 0;
   left: 0;
