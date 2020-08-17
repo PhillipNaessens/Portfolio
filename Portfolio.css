@@ -57,10 +57,11 @@ img {
  }
   
 .media-thumb1 {
-  position: fixed;
-  top: 12.75%;
-  left: 40%;
   border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding:5px;
 }
 
 .media-thumb2 {
