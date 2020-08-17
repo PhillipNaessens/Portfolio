@@ -31,6 +31,24 @@ li a {
   padding-left: 0px;
   color: red;
 }
+  
+.media {
+position: absolute;
+top: 24%;
+left: 50%;
+}
+
+  .media2 {
+position: absolute;
+top: 24%;
+left: 50%;
+}
+
+.mediaSurf {
+position: absolute;
+top: 10%;
+left: 37%;
+}
 
 a:visited { 
   text-decoration: none; 
