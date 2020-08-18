@@ -60,7 +60,6 @@ img {
   position: relative;
   padding-bottom: 56.25%;
   height: 0;
-  left: 40%;
 }
 .media iframe {
   position: absolute;
@@ -74,7 +73,6 @@ img {
   position: relative;
   padding-bottom: 56.25%;
   height: 0;
-  left: 40%;
 }
 .media2 iframe {
   position: absolute;
@@ -209,13 +207,29 @@ a:visited {
 .media {
 position: absolute;
 top: 24%;
-left: 50%;
+left: 40%;
+}
+  
+.media iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 40%;
+  height: 40%;
 }
 
 .media2 {
 position: absolute;
 top: 24%;
-left: 50%;
+left: 40%;
+}
+  
+.media2 iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 40%;
+  height: 40%;
 }
 
 .mediaSurf {
