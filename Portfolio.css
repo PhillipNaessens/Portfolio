@@ -56,17 +56,12 @@ img {
   padding:5px;
  }
   
-.mediaSurf {
-  position: absolute;
-  top: 10%;
-  width: 100%;
-}
-  
  .media {
   position: relative;
   padding-bottom: 56.25%;
   height: 0;
 }
+  
 .media iframe {
   position: absolute;
   top: 0;
