@@ -56,6 +56,15 @@ img {
   padding:5px;
  }
   
+.media {
+  position: absolute;
+  top: 24%;
+  margin-left: 25%;
+  margin-right: 25%;
+  width: 60%;
+  height: 60%;
+}
+  
 .media-thumb1 {
   border-radius: 50%;
   display: block;
