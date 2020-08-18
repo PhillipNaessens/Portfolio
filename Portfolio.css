@@ -60,6 +60,7 @@ img {
   position: relative;
   padding-bottom: 56.25%;
   height: 0;
+  left: 40%;
 }
 .media iframe {
   position: absolute;
@@ -73,6 +74,7 @@ img {
   position: relative;
   padding-bottom: 56.25%;
   height: 0;
+  left: 40%;
 }
 .media2 iframe {
   position: absolute;
