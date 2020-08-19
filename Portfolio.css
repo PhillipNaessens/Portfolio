@@ -1,4 +1,4 @@
-@media only screen and (max-width: 1200px){
+@media only screen and (max-width: 1000px){
   
 body {
   padding: 0;
@@ -145,8 +145,155 @@ img {
  
 }
 
+@media only screen and (max-width: 1100px; min-width: 1000px){
+  
+body {
+  padding: 0;
+  margin: 0;
+}
 
-@media only screen and (min-width: 1200px){
+.banner {
+  background-color:black;
+  padding-top: 1.5%;
+  padding-bottom: 0.9%;
+  padding-left: 1%;
+  text-align: center;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  text-align: center;
+}
+
+li a {
+  display: block;
+  padding: 5px;
+  padding-left: 0px;
+  color: red;
+}
+
+a:visited { 
+  text-decoration: none; 
+  color:red; 
+}
+  
+.about {
+  background-color:black;
+  font-size: 18px;
+  color: white;
+  font-family: Arial, sans-serif;
+  opacity: 0.75;
+  text-align: center;
+  padding: 1%;
+}
+
+img {
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding:5px;
+ }
+  
+ .media {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+}
+  
+.media iframe {
+  position: absolute;
+  top: 0;
+  left: 13%;
+  width: 75%;
+  height: 100%;
+}
+  
+.media2 {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+}
+.media2 iframe {
+  position: absolute;
+  top: 0;
+  left: 13%;
+  width: 75%%;
+  height: 100%;
+}
+  
+.media-thumb1 {
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding:5px;
+}
+
+.media-thumb2 {
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding:5px;
+}
+
+.media-thumb3 {
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding:5px;
+}
+
+.media-thumb4 {
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding:5px;
+}
+
+.media-thumb5 {
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding:5px;
+}
+  
+.media-thumb6 {
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding:5px;
+}
+  
+ .text {
+  color: white;
+  font-size: 20px;
+  position: relative;
+  background-color: black;
+  opacity: 0.75;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -7%);
+  text-align: center;
+}
+ 
+}
+
+
+@media only screen and (min-width: 1100px){
 
 body {
   padding: 0;
